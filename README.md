@@ -87,6 +87,7 @@ This is what a basic default config.json file looks like;
         {
             "coin":"BTC",
             "fiat":"USDT",
+            "minNotional":5,
             "coin_hold_amount":0,
             "fiat_hold_amount":0,
             "trade_enable":true,
@@ -101,6 +102,7 @@ This is what a basic default config.json file looks like;
         {
             "coin":"ETH",
             "fiat":"USDT",
+            "minNotional":5,
             "coin_hold_amount":0,
             "fiat_hold_amount":0,
             "trade_enable":true,
@@ -115,6 +117,7 @@ This is what a basic default config.json file looks like;
         {
             "coin":"BNB",
             "fiat":"USDT",
+            "minNotional":5,
             "coin_hold_amount":0,
             "fiat_hold_amount":0,
             "trade_enable":true,
@@ -145,6 +148,7 @@ This is what a basic default config.json file looks like;
 {
     "coin":"BTC",
     "fiat":"USDT",
+    "minNotional":5,
     "coin_hold_amount":0,
     "fiat_hold_amount":0,
     "trade_enable":true,
@@ -160,6 +164,8 @@ This is what a basic default config.json file looks like;
 **coin** Sets which cyrpto currency we wish to buy and sell.
 
 **fiat** Sets what currency we are using to buy and sell the cyrpto currency with. This could also be another cyrpto currency.
+
+**minNotional** Sets the minimum trade size in fiat currency. Binance does not allow smaller trades.
 
 **coin_hold_amount & fiat_hold_amount** Sets how much of a currency you wish to hold. These values are subtracted from your wallets free holding balance before determining if a buy or sell action is possible. Note if set to 0 the bot will use all available assets when making trades. Also note that this hold amount is only for this trading pair and not other Trading pairs.
 

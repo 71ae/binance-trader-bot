@@ -13,6 +13,7 @@
         {
             "coin":"BTC",
             "fiat":"AUD",
+            "minNotional":5,
             "coin_hold_amount":0,
             "fiat_hold_amount":0,
             "trade_enable":true,
@@ -27,6 +28,7 @@
         {
             "coin":"ETH",
             "fiat":"AUD",
+            "minNotional":5,
             "coin_hold_amount":0,
             "fiat_hold_amount":0,
             "trade_enable":true,
@@ -41,6 +43,7 @@
         {
             "coin":"BNB",
             "fiat":"AUD",
+            "minNotional":5,
             "coin_hold_amount":0,
             "fiat_hold_amount":0,
             "trade_enable":true,
@@ -55,6 +58,7 @@
         {
             "coin":"SOL",
             "fiat":"AUD",
+            "minNotional":5,
             "coin_hold_amount":0,
             "fiat_hold_amount":20,
             "trade_enable":true,
@@ -69,6 +73,7 @@
         {
             "coin":"AVAX",
             "fiat":"AUD",
+            "minNotional":5,
             "coin_hold_amount":0,
             "fiat_hold_amount":20,
             "trade_enable":true,
@@ -83,6 +88,7 @@
         {
             "coin":"LINK",
             "fiat":"AUD",
+            "minNotional":5,
             "coin_hold_amount":0,
             "fiat_hold_amount":20,
             "trade_enable":true,
@@ -97,6 +103,7 @@
         {
             "coin":"AXS",
             "fiat":"AUD",
+            "minNotional":5,
             "coin_hold_amount":0,
             "fiat_hold_amount":20,
             "trade_enable":true,
@@ -111,6 +118,7 @@
         {
             "coin":"APE",
             "fiat":"AUD",
+            "minNotional":5,
             "coin_hold_amount":0,
             "fiat_hold_amount":20,
             "trade_enable":true,
@@ -125,6 +133,7 @@
         {
             "coin":"DOT",
             "fiat":"AUD",
+            "minNotional":5,
             "coin_hold_amount":0,
             "fiat_hold_amount":20,
             "trade_enable":true,
@@ -139,6 +148,7 @@
         {
             "coin":"MATIC",
             "fiat":"AUD",
+            "minNotional":5,
             "coin_hold_amount":0,
             "fiat_hold_amount":30,
             "trade_enable":true,
@@ -153,6 +163,7 @@
         {
             "coin":"SAND",
             "fiat":"AUD",
+            "minNotional":5,
             "coin_hold_amount":0,
             "fiat_hold_amount":30,
             "trade_enable":true,
@@ -167,6 +178,7 @@
         {
             "coin":"ADA",
             "fiat":"AUD",
+            "minNotional":5,
             "coin_hold_amount":0,
             "fiat_hold_amount":30,
             "trade_enable":true,

@@ -13,6 +13,7 @@
         {
             "coin":"BTC",
             "fiat":"USDT",
+            "minNotional":5,
             "coin_hold_amount":0,
             "fiat_hold_amount":0,
             "trade_enable":true,
@@ -27,6 +28,7 @@
         {
             "coin":"ETH",
             "fiat":"USDT",
+            "minNotional":5,
             "coin_hold_amount":0,
             "fiat_hold_amount":0,
             "trade_enable":true,

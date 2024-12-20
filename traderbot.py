@@ -282,8 +282,9 @@ while True:
                 coin_info = client.get_symbol_info(symbol)
                 sell_dec_place=check_decimals(coin_info['filters'][1]['stepSize'])
                 buy_dec_place=check_decimals(coin_info['filters'][0]['tickSize'])
-                coin_maxQty=coin_info['filters'][4]['maxQty']
-                min_amount=coin_info['filters'][2]['minNotional']
+                #coin_maxQty=coin_info['filters'][4]['maxQty']
+                #min_amount=coin_info['filters'][2]['minNotional']
+                min_amount=tp['minNotional']
                 fiat_available_amount=float(fiat_balance['free'])-tp['fiat_hold_amount']
                 coin_available_amount=float(coin_balance['free'])-tp['coin_hold_amount']
 
@@ -419,8 +420,8 @@ while True:
                                 if qty>(coin_available_amount):
                                     qty=float(min_amount)/price # Use minimum trade amount
 
-                                if qty>float(coin_maxQty):
-                                    qty=float(coin_maxQty) # Use Max Qty if exceeded
+                                #if qty>float(coin_maxQty):
+                                #    qty=float(coin_maxQty) # Use Max Qty if exceeded
 
                                 if qty<float(min_amount)/price:
                                     qty=float(min_amount)/price # Use minimum trade amount
